@@ -1,0 +1,32 @@
+﻿﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <center>
+        <section class="row" aria-labelledby="aspnetTitle">
+            <h1 id="title">Bienvenido al Caso De Estudio 2</h1>
+            <p class="lead">A continuación la solución:</p>
+            <br />
+            <br />
+            <div class="imagen">
+                <div class="container">
+                    <h1><span>Casas</span></h1>
+                    <span class="cen">Consulta de casas</span>
+                    <a href="@Url.Action("ConsultarCasas","Casas")" class="boton">Ver</a>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="imagen2">
+                <div class="container">
+                    <h1><span>Alquilar</span></h1>
+                    <span class="cen">Alquilar Casa</span>
+                    <a href="@Url.Action("AlquilarCasas", "Casas")" class="boton">Ver</a>
+                </div>
+            </div>
+            <br />
+            <br />
+        </section>
+    </center>
+</main>
